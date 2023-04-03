@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ANIMATIONS LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- AOS LINK  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/jpeg" href="LOGO1.png" />
+    <!-- FONTS FAMILY LINKS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <title>EmTech| Journal</title>
+  </head>
+  <body onload="myFunc()">
+    
+     <!-- PreLoader -->
+    <div id="loader"></div>
+    
+    <!-------------------- NAVBAR ------------->
+    <nav>
+      <div class="logo" onclick="scrollFunc()">
+        <h3>< EMERGING<span>TECHNOLOGIES /></span></h3>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">AI</a></li>
+        <li><a href="#skills">IOT</a></li>
+        <li><a href="#contact">AR</a></li>
+        <li><a href="#DATA">DS</a></li>
+        <li><a href="#OTHER">OET</a></li>
+      </ul>
+
+
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+        <div class="line4"></div>
+        <div class="line5"></div>
+        <div class="line6"></div>
+      </div>
+    </nav>
+
+    <!---------------- HOME SECTION -------------->
+    <section class="home" id="home">
+      <div class="heading">
+        <span style="color: #0d655d">APPLICATION DEVELOPMENT <br> & </span><p>EMERGING TECHNOLOGIES
+        </p></div>
+      <div class="content">
+        IT 322
+        <button class="resume-btn">
+          <a href=" https://glow1nthedark.github.io/curriculum-vitae/" target="_blank">Curriculum  Vitae</a>
+        </button>
+      </div>
+    </section>
+
+    <!----------- ABOUT SECTION ----------->
+    <section class="about" id="about">
+      <div class="content">
+        <div
+          class="about-me-heading"
+          data-aos="fade-down"
+          data-aos-offset="270"
+          data-aos-duration="700"
+        >
+          <h1>WHAT IS ARTIFICIAL <span style="color: teal">INTELLIGENCE?</span></h1>
+        </div>
+        <div
+          class="info"
+          data-aos="zoom-in"
+          data-aos-offset="270"
+          data-aos-duration="800"
+        >
+        Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. 
+        <br> applications of AI include expert systems, natural language processing, speech recognition and machine vision.
+        </div>
+      </div>
+      <div
+        class="image"
+        data-aos="fade-left"
+        data-aos-offset="450"
+        data-aos-duration="1200"
+      >
+        <img src="images/AI.gif" alt="GIF" />
+      </div>
+    </section>
+
+    <!-------------- SKILLS SECTION ------------- -->
+    <section class="skills" id="skills">
+      <div
+        class="heading"
+        data-aos="fade-right"
+        data-aos-offset="170"
+        data-aos-duration="800"
+      >
+        <h1>INTERNET OF <span style="color: #0d655d">THINGS</span></h1>
+      </div>
+      <div class="skill-video">
+        <video width="1000" height="500" controls>
+          <source src="videoplayback.mp4" type="video/mp4">
+      </video> 
+      </div>
+
+    </section>
+
+    <!-- HEAIDNG -->
+    <!--   -->
+    <!-- IMAGE -->
+    <!--  -->
+
+    <!------- CONTACT SECTION ----- -->
+    <section class="contact" id="contact">
+>      <div
+        class="contact-heading"
+        data-aos="fade-down"
+        data-aos-offset="70"
+        data-aos-duration="1000"
+      >
+        <h1>AUGMENTED<span style="color: teal">REALITY</span></h1>
+      </div>
+      <div
+        class="info"
+        data-aos="fade-up"
+        data-aos-offset="110"
+        data-aos-duration="1000"
+      >
+      Augmented reality is an interactive experience that enhances the real world with computer-generated perceptual information. Using software, apps, and hardware such as AR glasses, <br>augmented reality overlays digital content onto real-life environments and objects.
+
+    </div>
+  
+      </div>
+      <br>
+    </section>
+    <hr>
+    <!------- OTHER SECTION ----- -->
+    <section class="DATA" id="DATA">
+      <div
+        class="contact-heading"
+        data-aos="fade-down"
+        data-aos-offset="70"
+        data-aos-duration="1000"
+      >
+        <h1>DATA<span style="color: teal">SCIENCE</span></h1>
+      </div>
+      <div
+        class="info"
+        data-aos="fade-up"
+        data-aos-offset="110"
+        data-aos-duration="1000"
+      >
+      Data science is the study of data to extract meaningful insights for business. <br>It is a multidisciplinary approach that combines principles and practices from the fields of mathematics, statistics, artificial intelligence, and computer engineering to analyze large amounts of data.
+
+      </div>
+     <hr>
+    </section>
+    <!------- OTHER SECTION ----- -->
+    <section class="OTHER" id="OTHER">
+      <div
+        class="contact-heading"
+        data-aos="fade-down"
+        data-aos-offset="70"
+        data-aos-duration="1000"
+      >
+        <h1>OTHER EMRGING<span style="color: teal">TECHNOLOGIES</span></h1>
+      </div>
+      <div
+        class="info"
+        data-aos="fade-up"
+        data-aos-offset="110"
+        data-aos-duration="1000"
+      >
+        Other emerging technologies like ,nanoTechnology,Biotechnology,block-chain Technology.cloud and quantum computing,autonomic computing,computer vision,embedded system,cybersecurity,3D printing.
+      </div>
+      <div class="social-media" data-aos="fade-down">
+        <a
+          href="https://web.facebook.com/profile.php?id=100005710214809"
+          rel="noopener"
+          target="_blank"
+          ><i class="fa fa fa-facebook" area-hidden="true"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/mr_vansh_007/"
+          rel="noopener"
+          target="_blank"
+          ><i class="fa fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/vansh-chitlangia-411a601a8/"
+          rel="noopener"
+          target="_blank"
+          ><i class="fa fa fa-linkedin" aria-hidden="true"></i
+        ></a>
+        <a href="https://github.com/Mr-Vansh" rel="noopener" target="_blank"
+          ><i class="fa fa fa-github" aria-hidden="true"></i
+        ></a>
+      </div>
+    </section>
+    <!--------- FOOTER SECTION ------------>
+    <section class="footer">
+      <p data-aos="fade-out" data-aos-offset="0" data-aos-duration="300">
+        ALL RIGHTS  RESERVED 2023
+      </p>
+    </section>
+
+    <!------------------ AOS SCRIPT ----------->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({});
+    </script>
+
+    <!-- JS LINK -->
+    <script src="app.js"></script>
+  </body>
+</html>
